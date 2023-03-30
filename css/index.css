@@ -33,6 +33,14 @@ body {
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
+.navbar a {
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
 .service-image {
     width: 7rem;
     height: 7rem;
@@ -43,7 +51,7 @@ body {
     background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
 }
 
-.service-image .fa-solid {
+.service-image .fa-solid, .service-image .fa-regular {
     color: #fff;
     font-size: 3rem;
     line-height: 7rem;
